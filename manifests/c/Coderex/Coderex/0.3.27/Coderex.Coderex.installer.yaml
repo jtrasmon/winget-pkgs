@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+PackageIdentifier: Coderex.Coderex
+PackageVersion: 0.3.27
+InstallerType: inno
+Scope: user
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-09-29
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://releases.coderex.com/0.3.27/Coderex-0.3.27-Setup.exe
+    InstallerSha256: CC49067759ECE30592596B97EF5B4BA5197C251494B31191E0744D754339C8CC
+ManifestType: installer
+ManifestVersion: 1.9.0
