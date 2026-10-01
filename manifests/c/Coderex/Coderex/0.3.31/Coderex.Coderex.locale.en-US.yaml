@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 PackageIdentifier: Coderex.Coderex
-PackageVersion: 0.3.30
+PackageVersion: 0.3.31
 PackageLocale: en-US
 Publisher: Coderex
 PublisherUrl: https://coderex.com
@@ -18,6 +18,6 @@ Tags:
   - ai
   - coding-agent
   - wsl
-ReleaseNotesUrl: https://coderex.com/releases/0.3.30
+ReleaseNotesUrl: https://coderex.com/releases/0.3.31
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
