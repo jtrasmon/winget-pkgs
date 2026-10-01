@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 PackageIdentifier: Coderex.Coderex
-PackageVersion: 0.3.28
+PackageVersion: 0.3.30
 InstallerType: inno
 Scope: user
 InstallModes:
@@ -8,10 +8,10 @@ InstallModes:
   - silent
   - silentWithProgress
 UpgradeBehavior: install
-ReleaseDate: 2026-09-29
+ReleaseDate: 2026-10-01
 Installers:
   - Architecture: x64
-    InstallerUrl: https://releases.coderex.com/0.3.28/Coderex-0.3.28-Setup.exe
-    InstallerSha256: BF0BE366C7A06F47C95A1687C8952BEC497B50917604B811029A8BB7ACF4ED68
+    InstallerUrl: https://releases.coderex.com/0.3.30/Coderex-0.3.30-Setup.exe
+    InstallerSha256: C0D0F8D213745E518FD9EC1D276F86A1F30A3FAC051152E79580C7EE82BCB8B3
 ManifestType: installer
 ManifestVersion: 1.12.0
